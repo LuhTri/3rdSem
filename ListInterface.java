@@ -13,7 +13,6 @@ public interface ListInterface<E> {
 
     public E removeFirst() throws NoSuchElementException;
 
-    // public E removeAfter(ListNode<E> current) throws NoSuchElementException;
 
     public void print();
 }
